@@ -1,0 +1,82 @@
+body {
+    background: url('../images/fondo.png');
+
+}
+
+#CuadroPrincipal {
+    width: 80%; 
+    height: 900px; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+    background-color: blueviolet;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+/* Esta es una animación para que cambie de color cuando el cursor esté encima del div que tenga la clase tarjeta */
+.Tarjeta:hover { 
+    background-color: #EAECEC;
+
+}
+
+/* La misma animación pero para la imagen*/
+.Tarjeta:hover > center > a > img { 
+    background-color: #A9B1B1;
+    border-radius: 15px;
+
+}
+
+/* El color de las palabras de los parráfos*/
+.Tarjeta > p {
+    color: gray;
+}
+
+.Tarjeta {
+    background-color: white; 
+    width: 25%; 
+    height: 400px; 
+    padding-left: 10px;
+
+}
+
+.Tarjeta > center > a > img {
+    width: 100%;
+    max-width: 215px; 
+    background-color: #D4D8D8;
+    border-radius: 5px;
+    user-select: none;
+
+}
+
+.boton-tipo {
+    width: 60px; 
+    height: 24px; 
+    text-align: center; 
+    line-height: 24px; 
+    margin-inline: 5px; 
+    border-radius: 3px;
+
+}
+
+.boton-tipo.grass {
+    background-color: #9bcc50;
+
+}
+
+.boton-tipo.poison {
+    background-color: #b97fc9; 
+
+}
+
+.contenedor-tipo {
+    display: flex;
+
+}
+
+.boton-tipo.fire {
+background-color: #fd7d24;
+    color: white;
+
+}
